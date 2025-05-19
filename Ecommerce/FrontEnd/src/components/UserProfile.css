@@ -1,0 +1,13 @@
+.user-profile-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.user-info-card p {
+  font-size: 16px;
+  margin: 10px 0;
+}

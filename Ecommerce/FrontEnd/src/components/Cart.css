@@ -1,0 +1,128 @@
+.cart-wrapper {
+  width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .cart-left, .cart-right {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-left {
+    flex: 1 1 600px;
+    max-width: 700px;
+  }
+  
+  .cart-right {
+    flex: 1 1 300px;
+    max-width: 320px;
+  }
+  
+  h2 {
+    background: linear-gradient(to right, #0f2027, #203a43);
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 12px;
+    text-align: center;
+    background-color: #e3be84;
+  }
+  
+  .cart-img {
+    width: 60px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .qty-btn {
+    background: none;
+    border: 1px solid #000;
+    padding: 4px 8px;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .qty-count {
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    background: linear-gradient(to bottom, red, darkred);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .total-card {
+    background-color: #e3be84;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .total-card p {
+    margin: 10px 0;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .checkout-btn {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .shopmore-btn {
+    background: purple;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .cart-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cart-left, .cart-right {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .cart-table th, .cart-table td {
+      font-size: 14px;
+    }
+  }
+  

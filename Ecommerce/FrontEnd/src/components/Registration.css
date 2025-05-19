@@ -1,0 +1,7 @@
+/* In your Login.css (or a common CSS file) */
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
