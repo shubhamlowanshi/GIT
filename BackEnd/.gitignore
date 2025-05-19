@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Optional: Ignore OS and editor-related files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional: Ignore frontend folder if separate (e.g., React)
+client/
+
+# Optional: Ignore coverage reports (if any)
+coverage/
+
+# Package-lock files (optional, depending on your workflow)
+package-lock.json
+
